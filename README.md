@@ -27,19 +27,20 @@ It's an alternative to paid services like Dropbox, WeTransfer.
 * `/admin` Page lists bucket information, [Screenshot](https://raw.githubusercontent.com/psi-4ward/psitransfer/master/docs/PsiTransfer-Admin.png) (_disabled until you set `adminPass` config value_)
 * Lightweight [Vue](https://vuejs.org) based frontend apps. Gzipped (on by default) less than 65k
 
-**See the blog posts about PsiTransfer: https://psi.cx/tags/PsiTransfer/ and checkout the 
-[Documentation](https://github.com/kone419/superpass-share/tree/master/docs)**
+
 
 ## Quickstart
 
 ### Docker
 ```bash
-$ docker run -p 0.0.0.0:3000:3000 -e PSITRANSFER_ADMIN_PASS=secret -v $PWD/data:/data psitrax/psitransfer
+$ docker run -p 0.0.0.0:3000:3000 -e PSITRANSFER_ADMIN_PASS=secret -v $PWD/data:/data 
+superpass_share
 # data volume needs UID 1000
 $ sudo chown -R 1000 $PWD/data 
 ```
 
-Specify the version by using [image tags](https://hub.docker.com/r/psitrax/psitransfer/tags/) e.g.:
+Specify the version by using [image tags](https://hub.docker.com/r/
+superpass_share/tags/) e.g.:
 * `latest`: corresponds to master branch
 * `1`: latest stable `1.x.x`
 * `1.1`: latest stable `1.1.x`
