@@ -1,14 +1,15 @@
-# PsiTransfer
+# [![Current Release](https://sppass.000webhostapp.com/0iconpng/3.png)](https://github.com/kone419/superpass-sharereleases)SUPERPASS SHARE
 
-[![Current Release](https://img.shields.io/github/release/psi-4ward/psitransfer.svg)](https://github.com/psi-4ward/psitransfer/releases)
+[![Current Release](https://sppass.000webhostapp.com/0pub/spservice.svg)](https://github.com/kone419/superpass-sharereleases)
+[![Current Release](https://img.shields.io/github/release/psi-4ward/psitransfer.svg)](https://github.com/kone419/superpass-sharereleases)
 [![Dependencies](https://david-dm.org/psi-4ward/psitransfer.svg)](https://david-dm.org/psi-4ward/psitransfer)
 [![Known Vulnerabilities](https://snyk.io/test/github/psi-4ward/psitransfer/badge.svg)](https://snyk.io/test/github/psi-4ward/psitransfer)
-[![Github Stars](https://img.shields.io/github/stars/psi-4ward/psitransfer.svg?style=social&label=Star)](https://github.com/psi-4ward/psitransfer)
+[![Github Stars](https://img.shields.io/github/stars/psi-4ward/psitransfer.svg?style=social&label=Star)](https://github.com/kone419/superpass-share)
 [![Docker Stars](https://img.shields.io/docker/stars/psitrax/psitransfer.svg)](https://hub.docker.com/r/psitrax/psitransfer/)
 [![Image Size](https://images.microbadger.com/badges/image/psitrax/psitransfer.svg)](https://microbadger.com/images/psitrax/psitransfer)
 [![Docker Pulls](https://img.shields.io/docker/pulls/psitrax/psitransfer.svg)](https://hub.docker.com/r/psitrax/psitransfer/)
 [![Docker Automated buil](https://img.shields.io/docker/automated/psitrax/psitransfer.svg)](https://hub.docker.com/r/psitrax/psitransfer/)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RTWDCH74TJN54&item_name=psitransfer)
+
 
 Simple open source self-hosted file sharing solution.  
 It's an alternative to paid services like Dropbox, WeTransfer.
@@ -27,7 +28,7 @@ It's an alternative to paid services like Dropbox, WeTransfer.
 * Lightweight [Vue](https://vuejs.org) based frontend apps. Gzipped (on by default) less than 65k
 
 **See the blog posts about PsiTransfer: https://psi.cx/tags/PsiTransfer/ and checkout the 
-[Documentation](https://github.com/psi-4ward/psitransfer/tree/master/docs)**
+[Documentation](https://github.com/kone419/superpass-share/tree/master/docs)**
 
 ![Screenshot](https://raw.githubusercontent.com/psi-4ward/psitransfer/master/docs/psitransfer.gif)
 
@@ -56,7 +57,7 @@ $ node -v
 v7.4.0
 
 # Download and extract latest release package from
-# https://github.com/psi-4ward/psitransfer/releases
+# https://github.com/kone419/superpass-share/releases
 
 # Install dependencies and start the app
 $ NODE_ENV=production npm install
@@ -109,7 +110,7 @@ DEBUG=psitransfer:* npm start
 
 :star2: Contribution is highly welcome :metal:
 
-Want to say thanks and buy me a beer? [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RTWDCH74TJN54&item_name=psitransfer)
+Want to say thanks and buy me a beer? [![Donate](https://sppass.000webhostapp.com/0pub/dashang.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DN49DHHYZX4Y2&item_name=)
 
 
 ## License
