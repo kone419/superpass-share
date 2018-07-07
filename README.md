@@ -30,10 +30,6 @@ It's an alternative to paid services like Dropbox, WeTransfer.
 **See the blog posts about PsiTransfer: https://psi.cx/tags/PsiTransfer/ and checkout the 
 [Documentation](https://github.com/kone419/superpass-share/tree/master/docs)**
 
-![Screenshot](https://raw.githubusercontent.com/psi-4ward/psitransfer/master/docs/psitransfer.gif)
-
-**Demo**: https://transfer.psi.cx
-
 ## Quickstart
 
 ### Docker
