@@ -16,15 +16,16 @@ const config =  {
   "sslCertFile": false,
   // retention options in seconds:label
   "retentions": {
-    "one-time": "one time download",
-    "3600": "1 Hour",
-    "21600": "6 Hours",
-    "86400": "1 Day",
-    "259200": "3 Days",
-    "604800": "1 Week",
-    "1209600": "2 Weeks",
-    "2419200": "4 Weeks",
-    "4838400": "8 Weeks"
+    "one-time": "下载一次后销毁",
+    "3600": "1个小时后销毁",
+    "21600": "6个小时后销毁",
+    "86400": "1天后销毁",
+    "259200": "3天后销毁",
+    "604800": "1周后销毁",
+    "1209600": "2周后销毁",
+    "2419200": "4周后销毁",
+    "4838400": "8周后销毁",
+	"7257600": "3个月后销毁"
   },
   // admin password, set to false to disable /admin page
   "adminPass": false,
@@ -33,7 +34,7 @@ const config =  {
   "maxAge": 3600*24*75, // 75 days
   // maximum file-size for previews in byte
   "maxPreviewSize": Math.pow(2,20) * 2, // 2MB
-  "mailTemplate": 'mailto:?subject=File Transfer&body=You can download the files here: %%URL%%',
+  "mailTemplate": 'mailto:?subject=File Transfer&body=这是您的文件下载链接: %%URL%%',
   // see https://github.com/expressjs/morgan
   // set to false to disable logging
   "accessLog": ':date[iso] :method :url :status :response-time :remote-addr'
